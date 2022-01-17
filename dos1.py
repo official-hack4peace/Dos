@@ -6,6 +6,7 @@ print (" `/_/====/_/-'\_\ ")
 print ("  ''     ''    '' ")
 import os
 user = input ("Enter hostname or ip: ")
+print ("DOS ATTACK STARTED")
 def ping(host):
     response = os.system("ping " + host)
     
